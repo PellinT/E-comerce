@@ -1,10 +1,15 @@
 export default function Banner() {
   return (
-    <div className="(h-90px)">
+    <div className="">
+      <img src="public/background-image.png" alt="" className=""/>
       <div>
-        <img src="public/background-image.png" alt="" />
+        <p>Stylish</p>
+        <p>Male Clothes</p>
+        <p>30% off for summer vacation</p>
+        <button>SHOP NOW</button>
       </div>
-      Banner
+
+     
     </div>
   );
 }
